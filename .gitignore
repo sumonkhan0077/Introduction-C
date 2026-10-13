@@ -1,3 +1,5 @@
-output.txt
-input.txt
 *.exe
+*.out
+output.txt
+output/
+.vscode/
