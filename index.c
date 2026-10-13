@@ -1,14 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int a, b;
-    scanf("%d %d" , &a , &b);
-    if (a%b == 0 || b%a ==0)
+    int x;
+    scanf("%d" , &x);
+    x= x / 1000;
+    if (x % 2 == 0 )
     {
-        printf("Multiples");  
+        printf("EVEN");
     }
-    else{
-        printf("No Multiples");
+    else {
+        printf("ODD");
     }
     
     return 0;
