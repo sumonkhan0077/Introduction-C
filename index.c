@@ -1,21 +1,34 @@
 #include <stdio.h>
 int main()
 {
-    char ch;
-    scanf("%c", &ch);
-    if (ch >= '0' && ch<='9')
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+
+
+
+    if (a<=b && a<=c)
     {
-        printf("IS DIGIT");
+        printf("%d ", a);
+    }
+    else if (b<=a && b<=c)
+    {
+        printf("%d ", b);
     }
     else{
-        printf("ALPHA\n");
-        if (ch >= 'a' && ch<='z' )
-        {
-           printf("IS SMALL");
-        }
-        else{
-            printf("IS CAPITAL");
-        }
+        printf("%d ", c);
+    }
+
+    
+    if (a>=b && a>=c)
+    {
+        printf("%d", a);
+    }
+    else if (b>=a && b>=c)
+    {
+        printf("%d", b);
+    }
+    else{
+        printf("%d", c);
     }
     
     return 0;
