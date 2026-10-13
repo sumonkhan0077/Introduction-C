@@ -1,16 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    int x;
-    scanf("%d" , &x);
-    x= x / 1000;
-    if (x % 2 == 0 )
+    char ch;
+    scanf("%c", &ch);
+    if (ch >= 'a' && ch<='z')
     {
-        printf("EVEN");
+        ch = ch - 32;
+        printf("%c", ch);
     }
-    else {
-        printf("ODD");
+    else{
+        ch = ch + 32;
+        printf("%c", ch);
     }
     
+
     return 0;
 }
