@@ -1,35 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
-
-
-
-    if (a<=b && a<=c)
+    int a;
+    scanf("%d", &a);
+   for (int i = 1; i <= a; i++)
+   {
+    if (i % 2 == 0)
     {
-        printf("%d ", a);
+        printf("%d\n", i);
     }
-    else if (b<=a && b<=c)
-    {
-        printf("%d ", b);
-    }
-    else{
-        printf("%d ", c);
-    }
-
     
-    if (a>=b && a>=c)
-    {
-        printf("%d", a);
-    }
-    else if (b>=a && b>=c)
-    {
-        printf("%d", b);
-    }
-    else{
-        printf("%d", c);
-    }
+   }
     
     return 0;
 }
