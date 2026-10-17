@@ -1,17 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    int a;
-    scanf("%d", &a);
-   for (int i = 1; i <= a; i++)
-   {
-    if (i % 2 == 0)
+    int n;
+    scanf("%d", &n);
+    int x;
+    for (int i = 0; i < n; i++)
     {
-        printf("%d\n", i);
+        long long int rslt=1;
+        scanf("%d", &x);
+        for (int i = 1; i <= x; i++)
+        {
+            rslt *=i;
+        }
+        printf("%d\n", rslt);
+
+        
     }
-    
-   }
-   
     
     return 0;
 }
