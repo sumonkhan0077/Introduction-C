@@ -1,0 +1,1 @@
+{"name":"Local: arrayPush","url":"d:\\Phitron\\Introduction to Programming Language\\Moudle9\\arrayPush.c","tests":[{"id":1793283736156,"input":"5\n10 20 30 40 50 \n1 100","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Introduction to Programming Language\\Moudle9\\arrayPush.c","group":"local","local":true}
