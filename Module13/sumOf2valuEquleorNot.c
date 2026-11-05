@@ -24,6 +24,7 @@ int main()
                 printf("YES\n");
                 flag = 1;
             }
+        
         }
     }
     if (flag == 0)
