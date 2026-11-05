@@ -1,0 +1,1 @@
+{"name":"Local: sumOf2valuEquleorNot","url":"d:\\Phitron\\Introduction to Programming Language\\Module13\\sumOf2valuEquleorNot.c","tests":[{"id":1793892452106,"input":"4\n5 3 2 12 \n19","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Introduction to Programming Language\\Module13\\sumOf2valuEquleorNot.c","group":"local","local":true}
