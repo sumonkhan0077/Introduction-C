@@ -22,13 +22,12 @@
 #include <stdio.h>
 long long int rec(int n)
 {
-    if (n ==1)
+    if (n == 1)
     {
         return 1;
     }
-   long long int mul = rec(n-1);
-   return n*mul;
-    
+    long long int mul = rec(n - 1);
+    return n * mul;
 }
 int main()
 {

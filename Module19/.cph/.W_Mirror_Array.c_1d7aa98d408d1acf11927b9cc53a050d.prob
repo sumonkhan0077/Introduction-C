@@ -1,0 +1,1 @@
+{"name":"Local: W_Mirror_Array","url":"d:\\Phitron\\Introduction to Programming Language\\Module19\\W_Mirror_Array.c","tests":[{"id":1795273443540,"input":"3 3\n1 2 3\n4 5 6\n7 8 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron\\Introduction to Programming Language\\Module19\\W_Mirror_Array.c","group":"local","local":true}

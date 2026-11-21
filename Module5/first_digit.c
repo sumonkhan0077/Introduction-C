@@ -6,10 +6,10 @@ int main()
     x= x / 1000;
     if (x % 2 == 0 )
     {
-        printf("EVEN");
+        printf("ODD");
     }
     else {
-        printf("ODD");
+        printf("EVEN");
     }
     
     return 0;
